@@ -1,0 +1,13 @@
+{
+    "manifest_version":2,
+    "name":"Social_Media_Blocker",
+    "version":"0.0.1",
+    "description":"An Extension to block social media sites",
+    "content_scripts":[
+        {
+            "matches":["<all_url>"],
+            "js":["Content.js"]
+        }
+    ]
+    
+}
