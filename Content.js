@@ -519,11 +519,7 @@ const cssStyles = () => { return `
 
 
 switch(document.location.hostname){
-    case "www.youtube.com" : 
-    document.head.innerHTML = cssStyles();    
-    document.body.innerHTML = html("Youtube");
-        break;
-
+   
     case "www.instagram.com" : 
     document.head.innerHTML = cssStyles();    
     document.body.innerHTML = html("Youtube");
